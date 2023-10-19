@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, .bg-body-tertiary{
+     background-image: url(img/fondo3.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+}
+ 
+
+.navbar-brand {
+    font-size: 3vw;
+    font-weight: bolder;
+    letter-spacing: 0.5vw;
+    color: white;
+}
+
+.navbar {
+    margin: 1vw auto;
+    width: 80vw;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 1.5vw;
+    padding: 0;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: end;
+}
+
+.navbar-nav {
+    gap: 3vw;
+    color: white;
+}
+
+.fa-bars {
+    color: white;
+} 
+
+.nav-item {
+    color: white;
+}
+
+.fa-bars:hover, .nav-item:hover, .navbar-brand:hover, .fa-brands:hover{
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+    font-weight: bold;
+    box-shadow: 0 0 10px 10px #fff, 0 0 10px 10px #0ff; 
+    color: blue;
+}
+
+.d-block {
+    margin: 5vh auto;
+    border-radius: 1vh;
+} 
+
+.portfolio {
+    margin: 2vw auto;
+    text-align: center;
+    height: fit-content;
+    color: white;
+    padding: 1vw;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 4vh;
+    letter-spacing: 2px;
+}
+
+hr {
+    margin: 0 auto;
+    width: 40vw;
+    color: white;
+}
+
+.img-header {
+    animation: fadeIn 2s ease;
+    width: 30vw;
+    height: auto;
+    border-radius: 100%;
+}
+@keyframes fadeIn {
+    0% {opacity: 0;
+        filter: blur(20px);
+    }
+    10% {
+        opacity: 1;
+        filter: brightness(2) blur(10px);
+    }}
+
+.header {
+    border-radius: 100%;
+    padding: 1vw;
+    width: fit-content;
+    text-align: center;
+    margin: 2vw auto;
+    
+}
+
+.texto-header {
+    text-align: center;
+    margin-top: 1vw;
+    color: white;
+    font-family: 'Amatic SC', sans-serif;
+    letter-spacing: 1vh;
+    font-size: 2vw;
+}
+
+.acerca-de-mi {
+    margin: 2vw auto;
+    text-align: center;
+    width: 50vw;
+    height: fit-content;
+    color: white;
+    padding: 1vw;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 3vh;
+    letter-spacing: 2px;
+}
+
+.container {
+    margin: 2vw auto;
+    text-align: center;
+    font-size: 3vh;
+    color: white;
+    font-family: 'Amatic SC', sans-serif;
+}
+
+#redes {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    align-items: center;
+}
+
+a, .nav-link{
+    color: white;
+}
+
+/* .fa-brands {
+
+} */
+
+.derechos {
+    border-top: 1.5px solid white;
+    width: 20vw;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 1vh;
+    font-size: small;
+}
+
+input, textarea{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    text-align: center;
+    background-color: transparent;
+    margin-top: 2vw;
+    color: white;
+    resize: none;
+}
+
+input:focus, textarea:focus {
+    transform: scale(1.3);
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 0 5px 5px #fff, 0 0 5px 5px #0ff;
+}
+
+.contacto {
+    color: white;
+    text-align: center;
+    margin: 2vw auto;
+    width: 50vw;
+    height: fit-content;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 3vh;
+    letter-spacing: 2px;
+}

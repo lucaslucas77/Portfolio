@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- barra de navegacion -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Lucas Gonzalez</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#acerca-de-mi">Acerca de mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <hr>
+      <!-- header -->
+        <header class="header">
+            <img class="img-header" src="img/IMG_20220128_092906.jpg" alt="">
+            <div class="texto-header">Desarrollador web</div>
+        </header>
+        <hr>
+<!-- Portfolio -->
+<section class="portfolio" id="portfolio">
+    <h3>Proyectos</h3>
+<div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href=""><img src="img/A la pizza.png" class="d-block w-50" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+        <a href=""><img src="img/padel.png" class="d-block w-50" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+        <a href=""><img src="img/To Do List.png" class="d-block w-50" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+        <a href=""><img src="img/radio2.png" class="d-block w-50" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+       <a href=""><img src="img/colorgame.png" class="d-block w-50" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+        <a href=""><img src="img/Weather channel.png" class="d-block w-50" alt="..."></a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden"></span>
+    </button>
+  </div>
+</section>
+<hr>
+<!-- acerca de mi -->
+<section class="acerca-de-mi" id="acerca-de-mi">
+    <h3>Acerca de mi</h3>
+    <p class="texto-acerca-de-mi">Soy Lucas, estudiante de Programacion con conocimientos de HTML, CSS, JavaScript, jQuery, frameworks(Bootstrap), GitHub, Solidworks.
+        Mis objetivos estan enfocados en el crecimiento profesional y economico, asi como tambien personal, considero que la tecnologia cumple un rol fundamental en la actualidad lo que genera una gran demanda de profesionales. 
+        Me destaco por ser organizado, responsable, comprometido y sobre todo por la busqueda constante, tanto de soluciones a los problemas que se planteen, como de formas de optimizar procesos.
+        Fuera del trabajo disfruto hacer deportes y hace tiempo forme parte de algunas bandas de rock.</p>
+</section>
+<hr>
+<!-- contacto -->
+<section class="contacto" id="contacto">
+    <h3>Contactame</h3>
+    <form action="https://formspree.io/f/xvonkbgg" method="post">
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+        <input type="text" name="apellido" id="apellido" placeholder="apellido">
+        <input type="email" name="email" id="email" placeholder="email">
+        <textarea name="comentario" id="comentario" cols="30" rows="3" placeholder="Contame por que queres contactarme"></textarea>
+</section>
+<hr>
+<!-- footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">Calle 1 278 | Buenos Aires </div>
+            <div class="col-sm-6" id="redes"><a href=""><i class="fa-brands fa-instagram"></i></a><a href=""><i class="fa-brands fa-facebook"></i></a><a href=""><i class="fa-brands fa-whatsapp"></i></a><a href=""><i class="fa-brands fa-linkedin"></i></a></div>
+        </div>
+    </div>
+    <div class="derechos">
+        <p>Derechos reservados 2023</p>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ba0ece2d64.js"></script>
+
+</body>
+</html>
