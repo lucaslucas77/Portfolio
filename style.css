@@ -38,15 +38,12 @@ body, .bg-body-tertiary{
     color: white;
 }
 
-.fa-bars {
-    color: white;
-} 
 
 .nav-item {
     color: white;
 }
 
-.fa-bars:hover, .nav-item:hover, .navbar-brand:hover, .fa-brands:hover{
+.nav-item:hover, .navbar-brand:hover, .icono:hover {
     border: none;
     background-color: white;
     border-radius: 50%;
@@ -137,13 +134,14 @@ hr {
     align-items: center;
 }
 
+.icono {
+    width: 30px;
+    height: 30px;
+}
+
 a, .nav-link{
     color: white;
 }
-
-/* .fa-brands {
-
-} */
 
 .derechos {
     border-top: 1.5px solid white;
