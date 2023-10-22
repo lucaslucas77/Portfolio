@@ -11,7 +11,7 @@ body, .bg-body-tertiary{
      background-attachment: fixed;
      background-size: cover;
 }
- 
+
 
 .navbar-brand {
     font-size: 3vw;
@@ -43,7 +43,7 @@ body, .bg-body-tertiary{
     color: white;
 }
 
-.nav-item:hover, .navbar-brand:hover, .icono:hover {
+.nav-item:hover, .navbar-brand:hover, .icono:hover, .enviar:hover{
     border: none;
     background-color: white;
     border-radius: 50%;
@@ -170,6 +170,16 @@ input:focus, textarea:focus {
     border-radius: 5px;
     outline: none;
     box-shadow: 0 0 5px 5px #fff, 0 0 5px 5px #0ff;
+}
+
+.enviar {
+    text-align: center;
+    width: 10vw;
+    height: 6vh;
+    background-color: transparent;
+    color: white;
+    margin-top: 2vw;
+    letter-spacing: 2px;
 }
 
 .contacto {
